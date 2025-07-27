@@ -1,5 +1,3 @@
-# main.tf
-
 # Data source for Availability Zones
 data "aws_availability_zones" "available" {
   state = "available"
