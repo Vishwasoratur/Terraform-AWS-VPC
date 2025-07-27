@@ -1,5 +1,3 @@
-# providers.tf (Correct structure)
-
 terraform {
   required_providers {
     aws = {
