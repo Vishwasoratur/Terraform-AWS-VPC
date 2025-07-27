@@ -128,7 +128,7 @@ resource "aws_subnet" "private_subnet" {
 # 6. NAT Gateways (one per public subnet in each AZ)
 resource "aws_eip" "nat_gateway_eip" {
   count = length(aws_subnet.public_subnet)
-  domain = "vpc" # Corrected from 'vpc = true'
+  domain = "vpc" 
   tags = {
     Name = "nat-gateway-eip-${count.index + 1}"
   }
