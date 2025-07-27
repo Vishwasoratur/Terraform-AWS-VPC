@@ -1,4 +1,4 @@
-# AWS Highly Available Application Deployment with Terraform
+# AWS Highly Available Application Infrastructure Deployment with Terraform
 
 This Terraform configuration deploys a highly available and scalable web application infrastructure in AWS, following best practices for cloud deployments. Resources are distributed across multiple Availability Zones to ensure resilience. It also includes an IAM role for EC2 instances to follow the principle of least privilege.
 
